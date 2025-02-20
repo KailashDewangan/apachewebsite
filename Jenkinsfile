@@ -1,7 +1,7 @@
 pipeline{
   agent any 
   stages {
-    stage(clone Repository') {
+    stage('clone Repository') {
           steps {
             git 'https://github.com/KailashDewangan/apachewebsite.git'
           }
