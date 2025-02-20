@@ -3,7 +3,7 @@ pipeline{
   stages {
     stage('clone Repository') {
           steps {
-            git 'https://github.com/KailashDewangan/apachewebsite.git'
+            git 'https://github.com/KailashDewangan/apachewebsite'
           }
           }
           stage('Install Apache'){
